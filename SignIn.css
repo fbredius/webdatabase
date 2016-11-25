@@ -1,0 +1,41 @@
+body {
+	background-color: #288686;
+}
+
+.whiteBar {
+	top: 0px;
+	height: 80px;
+	width: 100%;
+	background-color: white;
+	position: absolute;
+	z-index: -1;
+}
+
+.logoEnded {
+	background-image: url("LogoEnded.png");
+	position: absolute;
+	z-index: 1;
+	top: 20px;
+	left: 40px;
+}
+
+
+.login {
+	color: white;
+	font-weight: bold;
+	font: 70pt Helvetica;
+	position: absolute;
+	left: 40%;
+	top: 50%;
+	text-decoration: none;
+}
+
+.sign {
+	color: lavender;
+	font-weight: bold;
+	font: 70pt Helvetica;
+	position: absolute;
+	left: 40%;
+	top: 30%;
+	text-decoration: none;
+}
